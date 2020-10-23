@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "name": "Customers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_tax_id": {
+      "type": "string"
+    },
+    "customer_address": {
+      "type": "text"
+    },
+    "employees": {
+      "type": "component",
+      "repeatable": true,
+      "component": "user.user"
+    }
+  }
+}

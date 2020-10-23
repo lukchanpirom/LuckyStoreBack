@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_user_users",
+  "info": {
+    "name": "User",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string",
+      "maxLength": 10
+    }
+  }
+}

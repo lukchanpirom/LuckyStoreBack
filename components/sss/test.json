@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sss_tests",
+  "info": {
+    "name": "test",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
